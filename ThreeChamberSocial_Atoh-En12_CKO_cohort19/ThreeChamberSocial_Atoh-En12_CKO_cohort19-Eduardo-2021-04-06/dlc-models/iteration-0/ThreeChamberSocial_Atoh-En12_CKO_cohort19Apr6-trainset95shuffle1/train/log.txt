@@ -1,4 +1,4 @@
-2021-04-10 20:45:40 Config:
+2021-04-12 14:08:31 Config:
 {'all_joints': [[0], [1], [2], [3]],
  'all_joints_names': ['snout', 'left_ear', 'right_ear', 'tail_base'],
  'alpha_r': 0.02,
@@ -12,7 +12,7 @@
  'display_iters': 1000,
  'fg_fraction': 0.25,
  'global_scale': 0.8,
- 'init_weights': '/usr/local/lib/python3.7/dist-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'init_weights': '/content/deeplabcut_project/ThreeChamberSocial_Atoh-En12_CKO_cohort19/ThreeChamberSocial_Atoh-En12_CKO_cohort19-Eduardo-2021-04-06/dlc-models/iteration-0/ThreeChamberSocial_Atoh-En12_CKO_cohort19Apr6-trainset95shuffle1/train/snapshot-70000',
  'intermediate_supervision': False,
  'intermediate_supervision_layer': 12,
  'location_refinement': True,
@@ -52,73 +52,33 @@
  'weigh_only_present_joints': False,
  'weigh_part_predictions': False,
  'weight_decay': 0.0001}
-2021-04-10 20:51:46 iteration: 1000 loss: 0.0223 lr: 0.005
-2021-04-10 20:57:29 iteration: 2000 loss: 0.0124 lr: 0.005
-2021-04-10 21:03:12 iteration: 3000 loss: 0.0099 lr: 0.005
-2021-04-10 21:08:56 iteration: 4000 loss: 0.0082 lr: 0.005
-2021-04-10 21:14:39 iteration: 5000 loss: 0.0070 lr: 0.005
-2021-04-10 21:20:22 iteration: 6000 loss: 0.0063 lr: 0.005
-2021-04-10 21:26:05 iteration: 7000 loss: 0.0058 lr: 0.005
-2021-04-10 21:31:48 iteration: 8000 loss: 0.0052 lr: 0.005
-2021-04-10 21:37:31 iteration: 9000 loss: 0.0047 lr: 0.005
-2021-04-10 21:43:14 iteration: 10000 loss: 0.0046 lr: 0.005
-2021-04-10 21:48:57 iteration: 11000 loss: 0.0067 lr: 0.02
-2021-04-10 21:54:40 iteration: 12000 loss: 0.0056 lr: 0.02
-2021-04-10 22:00:23 iteration: 13000 loss: 0.0045 lr: 0.02
-2021-04-10 22:06:06 iteration: 14000 loss: 0.0040 lr: 0.02
-2021-04-10 22:11:49 iteration: 15000 loss: 0.0037 lr: 0.02
-2021-04-10 22:17:32 iteration: 16000 loss: 0.0033 lr: 0.02
-2021-04-10 22:23:15 iteration: 17000 loss: 0.0031 lr: 0.02
-2021-04-10 22:28:58 iteration: 18000 loss: 0.0030 lr: 0.02
-2021-04-10 22:34:41 iteration: 19000 loss: 0.0027 lr: 0.02
-2021-04-10 22:40:23 iteration: 20000 loss: 0.0026 lr: 0.02
-2021-04-10 22:46:06 iteration: 21000 loss: 0.0025 lr: 0.02
-2021-04-10 22:51:49 iteration: 22000 loss: 0.0023 lr: 0.02
-2021-04-10 22:57:32 iteration: 23000 loss: 0.0022 lr: 0.02
-2021-04-10 23:03:15 iteration: 24000 loss: 0.0022 lr: 0.02
-2021-04-10 23:08:57 iteration: 25000 loss: 0.0021 lr: 0.02
-2021-04-10 23:14:41 iteration: 26000 loss: 0.0020 lr: 0.02
-2021-04-10 23:20:23 iteration: 27000 loss: 0.0019 lr: 0.02
-2021-04-10 23:26:06 iteration: 28000 loss: 0.0019 lr: 0.02
-2021-04-10 23:31:49 iteration: 29000 loss: 0.0018 lr: 0.02
-2021-04-10 23:37:33 iteration: 30000 loss: 0.0017 lr: 0.02
-2021-04-10 23:43:16 iteration: 31000 loss: 0.0016 lr: 0.02
-2021-04-10 23:48:59 iteration: 32000 loss: 0.0015 lr: 0.02
-2021-04-10 23:54:43 iteration: 33000 loss: 0.0015 lr: 0.02
-2021-04-11 00:00:26 iteration: 34000 loss: 0.0015 lr: 0.02
-2021-04-11 00:06:08 iteration: 35000 loss: 0.0014 lr: 0.02
-2021-04-11 00:11:52 iteration: 36000 loss: 0.0015 lr: 0.02
-2021-04-11 00:17:35 iteration: 37000 loss: 0.0015 lr: 0.02
-2021-04-11 00:23:18 iteration: 38000 loss: 0.0013 lr: 0.02
-2021-04-11 00:29:04 iteration: 39000 loss: 0.0013 lr: 0.02
-2021-04-11 00:34:46 iteration: 40000 loss: 0.0014 lr: 0.02
-2021-04-11 00:40:30 iteration: 41000 loss: 0.0013 lr: 0.02
-2021-04-11 00:46:12 iteration: 42000 loss: 0.0013 lr: 0.02
-2021-04-11 00:51:55 iteration: 43000 loss: 0.0012 lr: 0.02
-2021-04-11 00:57:37 iteration: 44000 loss: 0.0012 lr: 0.02
-2021-04-11 01:03:20 iteration: 45000 loss: 0.0012 lr: 0.02
-2021-04-11 01:09:03 iteration: 46000 loss: 0.0013 lr: 0.02
-2021-04-11 01:14:46 iteration: 47000 loss: 0.0012 lr: 0.02
-2021-04-11 01:20:28 iteration: 48000 loss: 0.0012 lr: 0.02
-2021-04-11 01:26:11 iteration: 49000 loss: 0.0011 lr: 0.02
-2021-04-11 01:31:54 iteration: 50000 loss: 0.0011 lr: 0.02
-2021-04-11 01:37:37 iteration: 51000 loss: 0.0011 lr: 0.02
-2021-04-11 01:43:20 iteration: 52000 loss: 0.0010 lr: 0.02
-2021-04-11 01:49:03 iteration: 53000 loss: 0.0010 lr: 0.02
-2021-04-11 01:54:46 iteration: 54000 loss: 0.0011 lr: 0.02
-2021-04-11 02:00:29 iteration: 55000 loss: 0.0010 lr: 0.02
-2021-04-11 02:06:13 iteration: 56000 loss: 0.0010 lr: 0.02
-2021-04-11 02:11:56 iteration: 57000 loss: 0.0010 lr: 0.02
-2021-04-11 02:17:39 iteration: 58000 loss: 0.0010 lr: 0.02
-2021-04-11 02:23:22 iteration: 59000 loss: 0.0010 lr: 0.02
-2021-04-11 02:29:05 iteration: 60000 loss: 0.0010 lr: 0.02
-2021-04-11 02:34:47 iteration: 61000 loss: 0.0009 lr: 0.02
-2021-04-11 02:40:30 iteration: 62000 loss: 0.0010 lr: 0.02
-2021-04-11 02:46:13 iteration: 63000 loss: 0.0009 lr: 0.02
-2021-04-11 02:51:56 iteration: 64000 loss: 0.0009 lr: 0.02
-2021-04-11 02:57:38 iteration: 65000 loss: 0.0009 lr: 0.02
-2021-04-11 03:03:21 iteration: 66000 loss: 0.0009 lr: 0.02
-2021-04-11 03:09:03 iteration: 67000 loss: 0.0008 lr: 0.02
-2021-04-11 03:14:45 iteration: 68000 loss: 0.0009 lr: 0.02
-2021-04-11 03:20:28 iteration: 69000 loss: 0.0008 lr: 0.02
-2021-04-11 03:26:10 iteration: 70000 loss: 0.0008 lr: 0.02
+2021-04-12 14:21:59 iteration: 1000 loss: 0.0007 lr: 0.005
+2021-04-12 14:35:00 iteration: 2000 loss: 0.0007 lr: 0.005
+2021-04-12 14:48:00 iteration: 3000 loss: 0.0006 lr: 0.005
+2021-04-12 15:01:05 iteration: 4000 loss: 0.0007 lr: 0.005
+2021-04-12 15:14:11 iteration: 5000 loss: 0.0006 lr: 0.005
+2021-04-12 15:27:16 iteration: 6000 loss: 0.0006 lr: 0.005
+2021-04-12 15:40:20 iteration: 7000 loss: 0.0006 lr: 0.005
+2021-04-12 15:53:25 iteration: 8000 loss: 0.0006 lr: 0.005
+2021-04-12 16:06:30 iteration: 9000 loss: 0.0006 lr: 0.005
+2021-04-12 16:19:36 iteration: 10000 loss: 0.0006 lr: 0.005
+2021-04-12 16:32:40 iteration: 11000 loss: 0.0007 lr: 0.02
+2021-04-12 16:45:40 iteration: 12000 loss: 0.0008 lr: 0.02
+2021-04-12 16:58:44 iteration: 13000 loss: 0.0008 lr: 0.02
+2021-04-12 17:11:50 iteration: 14000 loss: 0.0008 lr: 0.02
+2021-04-12 17:24:56 iteration: 15000 loss: 0.0008 lr: 0.02
+2021-04-12 17:38:01 iteration: 16000 loss: 0.0008 lr: 0.02
+2021-04-12 17:51:06 iteration: 17000 loss: 0.0007 lr: 0.02
+2021-04-12 18:04:12 iteration: 18000 loss: 0.0008 lr: 0.02
+2021-04-12 18:17:19 iteration: 19000 loss: 0.0007 lr: 0.02
+2021-04-12 18:30:25 iteration: 20000 loss: 0.0008 lr: 0.02
+2021-04-12 18:43:33 iteration: 21000 loss: 0.0007 lr: 0.02
+2021-04-12 18:56:35 iteration: 22000 loss: 0.0008 lr: 0.02
+2021-04-12 19:09:36 iteration: 23000 loss: 0.0007 lr: 0.02
+2021-04-12 19:22:40 iteration: 24000 loss: 0.0008 lr: 0.02
+2021-04-12 19:35:42 iteration: 25000 loss: 0.0007 lr: 0.02
+2021-04-12 19:48:44 iteration: 26000 loss: 0.0007 lr: 0.02
+2021-04-12 20:01:46 iteration: 27000 loss: 0.0008 lr: 0.02
+2021-04-12 20:14:47 iteration: 28000 loss: 0.0008 lr: 0.02
+2021-04-12 20:27:48 iteration: 29000 loss: 0.0007 lr: 0.02
+2021-04-12 20:40:49 iteration: 30000 loss: 0.0007 lr: 0.02
