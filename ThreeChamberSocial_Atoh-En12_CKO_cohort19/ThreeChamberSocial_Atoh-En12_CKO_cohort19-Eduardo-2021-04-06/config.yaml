@@ -5,7 +5,7 @@ date: Apr6
 multianimalproject: false
 
     # Project path (change when moving around)
-project_path: /content/deeplabcut_project/ThreeChamberSocial_Atoh-En12_CKO_cohort19/ThreeChamberSocial_Atoh-En12_CKO_cohort19-Eduardo-2021-04-06
+project_path: /Users/eduardo/deeplabcut_project/ThreeChamberSocial_Atoh-En12_CKO_cohort19/ThreeChamberSocial_Atoh-En12_CKO_cohort19-Eduardo-2021-04-06
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
@@ -46,7 +46,7 @@ TrainingFraction:
 iteration: 0
 default_net_type: resnet_50
 default_augmenter: default
-snapshotindex: -1
+snapshotindex: -4
 batch_size: 8
 
     # Cropping Parameters (for analysis and outlier frame detection)
